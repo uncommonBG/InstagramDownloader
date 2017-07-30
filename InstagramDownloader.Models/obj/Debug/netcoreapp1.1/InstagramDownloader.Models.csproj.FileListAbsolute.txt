@@ -1,0 +1,7 @@
+C:\Users\Kerim Emurla\Desktop\Workspace\MyFirstProject\IGDownloader\InstagramDownloader.Models\bin\Debug\netcoreapp1.1\InstagramDownloader.Models.deps.json
+C:\Users\Kerim Emurla\Desktop\Workspace\MyFirstProject\IGDownloader\InstagramDownloader.Models\bin\Debug\netcoreapp1.1\InstagramDownloader.Models.dll
+C:\Users\Kerim Emurla\Desktop\Workspace\MyFirstProject\IGDownloader\InstagramDownloader.Models\bin\Debug\netcoreapp1.1\InstagramDownloader.Models.pdb
+C:\Users\Kerim Emurla\Desktop\Workspace\MyFirstProject\IGDownloader\InstagramDownloader.Models\obj\Debug\netcoreapp1.1\InstagramDownloader.Models.csprojResolveAssemblyReference.cache
+C:\Users\Kerim Emurla\Desktop\Workspace\MyFirstProject\IGDownloader\InstagramDownloader.Models\obj\Debug\netcoreapp1.1\InstagramDownloader.Models.AssemblyInfo.cs
+C:\Users\Kerim Emurla\Desktop\Workspace\MyFirstProject\IGDownloader\InstagramDownloader.Models\obj\Debug\netcoreapp1.1\InstagramDownloader.Models.dll
+C:\Users\Kerim Emurla\Desktop\Workspace\MyFirstProject\IGDownloader\InstagramDownloader.Models\obj\Debug\netcoreapp1.1\InstagramDownloader.Models.pdb

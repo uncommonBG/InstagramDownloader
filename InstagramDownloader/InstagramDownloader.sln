@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstagramDownloader", "InstagramDownloader.csproj", "{BCD69B61-CEF6-4AE8-9FD3-02BC8D179BDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstagramDownloader.Services", "..\InstagramDownloader.Services\InstagramDownloader.Services.csproj", "{42D3EC15-6D79-4E90-9AB0-57366BA30EDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstagramDownloader.Common", "..\InstagramDownloader.Common\InstagramDownloader.Common.csproj", "{245B1BF2-97AF-4563-8031-445ECD30B3D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstagramDownloader.Models", "..\InstagramDownloader.Models\InstagramDownloader.Models.csproj", "{D2E2A1D4-309A-496F-91E9-D002D64156E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCD69B61-CEF6-4AE8-9FD3-02BC8D179BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD69B61-CEF6-4AE8-9FD3-02BC8D179BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD69B61-CEF6-4AE8-9FD3-02BC8D179BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD69B61-CEF6-4AE8-9FD3-02BC8D179BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D3EC15-6D79-4E90-9AB0-57366BA30EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D3EC15-6D79-4E90-9AB0-57366BA30EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D3EC15-6D79-4E90-9AB0-57366BA30EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D3EC15-6D79-4E90-9AB0-57366BA30EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245B1BF2-97AF-4563-8031-445ECD30B3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245B1BF2-97AF-4563-8031-445ECD30B3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245B1BF2-97AF-4563-8031-445ECD30B3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245B1BF2-97AF-4563-8031-445ECD30B3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E2A1D4-309A-496F-91E9-D002D64156E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E2A1D4-309A-496F-91E9-D002D64156E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E2A1D4-309A-496F-91E9-D002D64156E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E2A1D4-309A-496F-91E9-D002D64156E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://instadownloader.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = InstagramDownloader.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\InstagramDownloader.Services\\InstagramDownloader.Services.csproj
+		SccProjectName2 = ../InstagramDownloader.Services
+		SccLocalPath2 = ..\\InstagramDownloader.Services
+		SccProjectUniqueName3 = ..\\InstagramDownloader.Common\\InstagramDownloader.Common.csproj
+		SccProjectName3 = ../InstagramDownloader.Common
+		SccLocalPath3 = ..\\InstagramDownloader.Common
+		SccProjectUniqueName4 = ..\\InstagramDownloader.Models\\InstagramDownloader.Models.csproj
+		SccProjectName4 = ../InstagramDownloader.Models
+		SccLocalPath4 = ..\\InstagramDownloader.Models
+	EndGlobalSection
+EndGlobal

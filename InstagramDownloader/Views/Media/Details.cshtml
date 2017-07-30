@@ -1,0 +1,54 @@
+﻿@model Media
+@using InstagramDownloader.Models.Enums;
+@using InstagramDownloader.Models.Models;
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
+<div class="jumbotron jumb-cont">
+    <div class="row">
+        @if (Model.Type == MediaType.Carousel)
+        {
+            <div class="row">
+                <div class="col-md-12">
+                    <a data-carousel='@Html.Raw(Json.Serialize(Model.Carousel))' id="downloadCarouselButton" class="btn download-btn downall btn-lg">Download All</a>
+                </div>
+            </div>
+            foreach (MediaFile mediaFile in Model.Carousel)
+            {
+                if (mediaFile.Type == MediaType.Image)
+                {
+                    <div class="col-md-4">
+                        <a href="@mediaFile.StandartResolutionURL" data-fancybox="images" data-caption="@Model.Caption">
+                            <img src="@mediaFile.StandartResolutionURL" alt="Instagram Carousel Image" />
+                        </a>
+                        <br />
+                        <a asp-controller="Media" asp-action="Download" asp-route-url="@mediaFile.StandartResolutionURL" asp-route-type="@mediaFile.Type" class="btn download-btn">Download</a>
+                    </div>
+                }
+                else
+                {
+                    <div class="col-md-4">
+                        <a href="@mediaFile.StandartResolutionURL" data-fancybox="images" data-caption="@Model.Caption">
+                            <video width="150" height="150" src="@mediaFile.LowResolutionURL" controls></video>
+                        </a>
+                        <br />
+                        <a asp-controller="Media" asp-action="Download" asp-route-url="@mediaFile.StandartResolutionURL" asp-route-type="@mediaFile.Type" class="btn download-btn">Download</a>
+                    </div>
+                }
+            }
+        }
+        else
+        {
+            <div class="col-md-4">
+                <a href="@Model.MediaFile.StandartResolutionURL" data-fancybox="images" data-caption="@Model.Caption">
+                    <img src="@Model.MediaFile.LowResolutionURL" alt="Instagram Carousel Image" />
+                </a>
+                <a asp-controller="Media" asp-action="Download" asp-route-url="@Model.MediaFile.StandartResolutionURL" asp-route-type="@Model.MediaFile.Type" class="btn download-btn">Download</a>
+            </div>
+        }
+    </div>
+</div>
+
+

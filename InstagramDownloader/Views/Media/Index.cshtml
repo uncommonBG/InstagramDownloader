@@ -1,0 +1,19 @@
+﻿@model InstagramDownloader.Models.ViewModels.MediaViewModel
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+
+<div class="jumbotron indx-jumb">
+    <h2>Download Instagram Images, Videos & Carousels.</h2>
+    <div>
+        <form asp-controller="Media" asp-action="Index" method="post">
+            <div class="form-index">
+                <input type="text" asp-for="URL" class="form-control form-text" placeholder="https://www.instagram.com/p/BS9EDOsDEV0/">
+                <input type="submit" value="Get" class="btn button-get" />
+                <span asp-validation-for="URL" class="text-danger displayblock"></span>
+            </div>
+        </form>
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </div>
+</div>
